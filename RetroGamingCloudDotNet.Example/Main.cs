@@ -61,6 +61,8 @@ namespace RetroGamingCloudDotNet.Example
 
         private void tcGames_MouseClick(object sender, MouseEventArgs e)
         {
+            //http://stackoverflow.com/a/745361/1339826
+
             var tabControl = sender as TabControl;
             var tabs = tabControl.TabPages;
 
